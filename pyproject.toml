@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "outlook-calendar"
+version = "0.0.1"
+description = "Выкачка событий из календаря"
+authors = ["Ilia Novikov WorkB <nov.ilucha@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+o365 = "^2.0.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
