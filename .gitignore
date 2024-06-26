@@ -1,2 +1,3 @@
 keys/**
+!keys/test_key
 __pycache__
