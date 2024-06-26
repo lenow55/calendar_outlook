@@ -1,1 +1,2 @@
-certs/*.cer
+keys/**
+__pycache__
